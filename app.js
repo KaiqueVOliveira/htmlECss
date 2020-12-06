@@ -1,11 +1,19 @@
-const moment = require("moment");
+/*const moment = require("moment");
 
 const fs = require('fs');
-let momento = require('moment');
+//let momento = require('moment');
 let  dados = fs.readFileSync(__dirname + '/dados.txt', 'utf8');
 
-const superHeroes = require('./superHeroes');
+const superHeroes = require('./SuperHeroes');
 
-let data = momento().format('DD MMM do YY');
+let data = moment().format('DD do MMM YY');
 
-console.log(superHeroes);
+console.log(superHeroes);*/
+
+
+
+let cachorro = require('./superHeroes')
+
+let{nome, idade} = cachorro
+
+console.log('O cachorro se chama ' + nome + ' e tem ' + idade + ' anos')

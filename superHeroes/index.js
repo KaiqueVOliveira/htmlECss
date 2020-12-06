@@ -1,4 +1,4 @@
-const heroes = [
+/*const heroes = [
     {
         nome: 'Batman',
         poder: 'Inteligencia',
@@ -7,6 +7,14 @@ const heroes = [
         nome: 'Superman',
         poder: 'Super força'
     }
-]
+]*/
 
-module.exports = heroes;
+//module.exports = heroes;
+
+let cachorro = {
+    nome: 'Scooby', 
+    idade: 7, 
+    gostaDeComer: true
+}
+
+module.exports = cachorro;
